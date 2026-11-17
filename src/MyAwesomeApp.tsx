@@ -2,9 +2,7 @@ import type { CSSProperties } from "react";
 
 const firstName = 'Geovanny';
 const lastName = 'Abad';
-
-const favouriteGames = ['God of war', 'crash', 'horizon']
-
+const favouriteGames = ['God of war', 'Crash', 'Horizon']
 const isActive = true;
 
 
@@ -26,7 +24,7 @@ const myStyles: CSSProperties = {
 }
 
 
-export function MyAwesomeApp() {
+export const MyAwesomeApp = () => {
 
     return (
 
